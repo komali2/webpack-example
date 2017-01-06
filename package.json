@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --env production"
+    "build": "webpack --env production",
+    "start": "webpack-dev-server --env development"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "html-webpack-plugin": "^2.26.0",
     "webpack": "^2.2.0-rc.3",
+    "webpack-dev-server": "^2.2.0-rc.0",
     "webpack-merge": "^2.2.0"
   }
 }
