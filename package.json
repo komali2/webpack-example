@@ -1,0 +1,22 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komali2/webpack-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komali2/webpack-example/issues"
+  },
+  "homepage": "https://github.com/komali2/webpack-example#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
+}
