@@ -1,30 +1,27 @@
 {
-  "name": "webpack-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "survivejs-react",
+  "private": true,
+  "version": "1.3.3",
+  "description": "SurviveJS - React",
   "scripts": {
-    "build": "webpack"
+    "test": "check-markdown-links manuscript"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/komali2/webpack-example.git"
+    "url": "https://github.com/survivejs/webpack.git"
   },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/komali2/webpack-example/issues"
+    "url": "https://github.com/survivejs/webpack/issues"
   },
-  "homepage": "https://github.com/komali2/webpack-example#readme",
+  "homepage": "https://github.com/survivejs/webpack",
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
-    "babel-preset-env": "^1.1.8",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^2.0.0-beta.4",
-    "image-webpack-loader": "^3.1.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^2.2.0-rc.0"
+    "check-markdown-links": "^0.1.1"
   }
 }
