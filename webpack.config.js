@@ -15,6 +15,7 @@ const VENDOR_LIBS = [
 ];
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     bundle: './src/index.js',
     vendor: VENDOR_LIBS  
