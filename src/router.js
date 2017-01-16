@@ -7,7 +7,7 @@ import ArtistMain from './components/artists/ArtistMain';
 const componentRoutes = {
   component: Home,
   path: '/',
-  indexRoute: {component: AristMain },
+  indexRoute: {component: ArtistMain },
   childRoutes: [
     {
       path: '/artists/new',
